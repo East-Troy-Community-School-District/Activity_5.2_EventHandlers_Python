@@ -39,7 +39,7 @@ def multiply():
     output = str(number1) + " * " + str(number2) + " = " + str(result)
     result_label.config(text=output)
     
-def divide(event):
+def divide():
     '''
     Divides the two numbers entered by the user.
     '''
